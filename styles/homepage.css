@@ -49,6 +49,7 @@ header{
     padding-top: 20vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width:90%;
     left: 50%;
     transform: translate(-50%);
@@ -68,6 +69,7 @@ header{
     font-style: normal;
     font-weight: 400;
     margin-bottom: 0;
+    margin-top: 0;
     font-size: 48px;
     line-height: 72px;
 }
@@ -81,12 +83,12 @@ header{
 .intro-img{
     display: grid;
     grid-gap: 1em;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 15px 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 #grid-item-2{
-    grid-column-start: 0;
-    grid-column-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 .logos-list{
     width:70%;
