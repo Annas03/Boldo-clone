@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    background-image: url("/assets/homepage/Rectangle\ 1268.png");
+    height: 90vh;
+}
+#elipse{
+    top:0;
+    right:0;
+    position: absolute;
+    z-index: 0;
+}
+.nav-bar{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    left: 50%;
+    transform: translate(-50%);
+    overflow:visible;
+    z-index: 1;
+}
+.nav-bar ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+}
+.list-item{
+    margin:20px;
+    font-size: 16px;
+}
+#log-in{
+    background-color: white;
+    border: none;
+    padding:4px 20px;
+    border-radius: 24px;
+    line-height: 24px;
+}
+.boldo-logo{
+    height:45px;
+}
+.intro{
+    position: absolute;
+    padding-top: 15rem;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    width: 567px;
+    height: 310px;
+}
+.intro-text h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 48px;
+    line-height: 72px;
+}
+.intro-text p{
+    font-size: 16px;
+    line-height: 28px;
+    width: 567px;
+    height: 56px;
+}
+.logos-list{
+    margin:0 auto;  
+    padding-top:80vh;
+}
