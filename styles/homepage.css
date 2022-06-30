@@ -4,7 +4,7 @@ body{
 }
 header{
     background-image: url("/assets/homepage/Rectangle\ 1268.png");
-    height: 90vh;
+    height: 798px;
 }
 #elipse{
     top:0;
@@ -17,7 +17,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:80%;
+    width:90%;
     left: 50%;
     transform: translate(-50%);
     overflow:visible;
@@ -46,10 +46,10 @@ header{
 }
 .intro{
     position: absolute;
-    padding-top: 15rem;
+    padding-top: 20vh;
     display: flex;
     justify-content: space-between;
-    width:80%;
+    width:90%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -57,12 +57,13 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: space-between;
     padding: 0px;
     width: 567px;
     height: 310px;
 }
 .intro-text h1{
+    color:white;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
@@ -71,12 +72,26 @@ header{
     line-height: 72px;
 }
 .intro-text p{
+    color:gray;
     font-size: 16px;
     line-height: 28px;
     width: 567px;
     height: 56px;
 }
+.intro-img{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#grid-item-2{
+    grid-column-start: 0;
+    grid-column-end: 2;
+}
 .logos-list{
+    width:70%;
     margin:0 auto;  
-    padding-top:80vh;
+    padding-top:40em;
+    display: flex;
+    justify-content: space-around;
 }
