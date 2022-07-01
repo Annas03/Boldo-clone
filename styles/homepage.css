@@ -115,3 +115,83 @@ header{
     color: white;
     margin-left: 15px;
 }
+.title{
+    margin-top: 70px;
+    text-align: center;
+    width: 842px;
+    margin: 60px auto 0;
+}
+.title h1{
+    font-size: 42px;
+    line-height: 62px;
+    margin-top: 0;
+}
+.title h3{
+    font-size: 20px;
+}
+.featurs-list{
+    width:80%;
+    margin:3em auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#feature-one, #feature-two, #feature-three{
+    width:300px;
+}
+.arrow{
+    border:2px solid #0A2640;
+    width:50px;
+    height:40px;
+    font-size: 5px;
+}
+.feature-btn{
+    color: #0A2640;
+    border: none;
+    border-bottom: 1px solid #0A2640;
+    background-color: transparent;
+}
+.buisness-plans{
+    width:80%;
+    margin: 6em auto;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about{
+    width:450px;
+}
+.about h1{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    margin-top: 0;
+}
+.about ul{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    list-style-type: none;
+    padding-left: 0;
+}
+.about li{
+    display: flex;
+    align-items: center;
+    margin:1em auto;
+}
+.about span{
+    padding-left:1em;
+}
+.start-now{
+    margin-top:1em;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    border-radius: 56px;
+    padding: 16px 56px;
+    border: none;
+    background-color: #0A2640;
+    color:white;
+}
