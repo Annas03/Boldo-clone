@@ -52,6 +52,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width:85%;
+    max-width: 1200px;
     left: 50%;
     transform: translate(-50%);
 }
@@ -95,6 +96,7 @@ header{
 }
 .logos-list{
     width:70%;
+    max-width: 1050px;
     margin:0 auto;  
     padding-top:42em;
     display: flex;
@@ -196,4 +198,179 @@ header{
     border: none;
     background-color: #0A2640;
     color:white;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-shadow-links{
+    box-shadow:90px 0px 64px rgba(0,0,0,0.07);
+}
+.testimonials{
+    background-image: url("/assets/homepage/Rectangle\ 1268.png");
+    height: 798px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    max-width: 1140px;
+    margin:auto;
+    padding-top:3.5em;
+}
+.heading h1{
+    width: 716px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 0;
+    color: white;
+}
+.left-right-btns{
+    align-self: flex-end;
+}
+.left-right-btns button{
+    background-color: white;
+    border: none;
+    width:72px;
+    height: 72px;
+    border-radius: 50%;
+    padding: 0;
+}
+#move-left{
+    margin-right: 1em;
+}
+.reviews{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 75%;
+    max-width: 1140px;
+    margin:4.5em auto 0;    
+}
+.review{
+    width:325px;
+    background-color: white;
+    border-radius: 12px;
+}
+.review h3{
+    width:80%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin:1em auto 1em;
+}
+.user{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width:80%;
+    margin:0 auto 2em;
+}
+.user img{
+    height: 58px;
+}
+.name-designation h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    margin:0 auto 0;
+}
+.name-designation{
+    margin-left:1em;
+}
+.name-designation p{
+    font-size: 14px;
+    margin:0.5em auto 0;
+}
+.faqs{
+    width:80%;
+    max-width: 1140px;
+    margin:7em auto 5em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.faqs h2{
+    width:500px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+}
+.faqs button{
+    border: none;
+    background-color: transparent;
+}
+.button-one, .button-two{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #0A2640;
+    font-size: 20px;
+    line-height: 32px;
+}
+#faqs-btn{
+    margin-top: 1.5em;
+    margin-left:5em;
+}
+.blog{
+    width:75%;
+    max-width:1140px;
+    margin:auto;
+    text-align: center;
+}
+.blog h1{
+    width:80%;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin:auto;
+}
+.blog h3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+.category-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top:3em;
+}
+.category-list-item{
+    width:300px;
+    text-align: start;
+    
+}
+.category-list-item span{
+    margin-top:20px;
+}
+#load-more{
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+    padding: 16px 56px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0A2640;
+    line-height: 28px;
+    margin-top:4em;
+}
+.cat{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0A2640;
+}
+.date{
+    margin-left:1em;
+}
+.category-list-item-data{
+    margin-top: 1em;
+}
+.category-list-item-data h3{
+    margin-top:0.5em;
 }
