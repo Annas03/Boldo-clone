@@ -131,6 +131,7 @@ header{
 }
 .featurs-list{
     width:80%;
+    max-width: 1140px;
     margin:3em auto 0;
     display: flex;
     justify-content: space-between;
@@ -153,6 +154,7 @@ header{
 }
 .buisness-plans{
     width:80%;
+    max-width: 1140px;
     margin: 6em auto;
 }
 .one{
