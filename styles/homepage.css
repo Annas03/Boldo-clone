@@ -17,7 +17,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:90%;
+    width:85%;
     left: 50%;
     transform: translate(-50%);
     overflow:visible;
@@ -29,15 +29,16 @@ header{
     align-items: center;
     list-style-type: none;
     color: white;
+    padding-left: 0;
 }
 .list-item{
     margin:20px;
-    font-size: 16px;
+    font-size: 18px;
 }
 #log-in{
     background-color: white;
     border: none;
-    padding:4px 20px;
+    padding:8px 40px;
     border-radius: 24px;
     line-height: 24px;
 }
@@ -46,11 +47,11 @@ header{
 }
 .intro{
     position: absolute;
-    padding-top: 20vh;
+    padding-top:150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:90%;
+    width:85%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -79,6 +80,8 @@ header{
     line-height: 28px;
     width: 567px;
     height: 56px;
+    margin-top: 0;
+    width: 85%;
 }
 .intro-img{
     display: grid;
@@ -93,7 +96,22 @@ header{
 .logos-list{
     width:70%;
     margin:0 auto;  
-    padding-top:40em;
+    padding-top:42em;
     display: flex;
     justify-content: space-around;
+}
+#buy-template, #explore{
+    border-radius: 24px;
+    padding:16px 56px;
+}
+#buy-template{
+    border: 0;
+    background-color: #69E6A6;
+    color: #0A2640;
+}
+#explore{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 15px;
 }
