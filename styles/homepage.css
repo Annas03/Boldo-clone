@@ -393,21 +393,37 @@ header{
 footer{
     width: 80%;
     max-width: 1140px;
-    margin: 6em auto;
+    margin: 6em auto 0;
 }
 .send-email{
     text-align: center;
     background-image: url("/assets/homepage/Rectangle\ 1268.png");
     height:391px;
+    position: relative;
+    overflow: hidden;
+}
+#elipse-two{
+    top:-200px;
+    right:0;
+    position: absolute;
+    z-index: 0;
+    height:500px;
+    transform: rotate(-15deg);   
 }
 .send-email h1{
+    position: absolute;
     color: white;
     width: 55%;
-    margin:auto auto 0.7em;
-    padding-top: 1.5em;
+    margin:0;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 70px;
     font-weight: 400;
     font-size: 48px;
     line-height: 72px;
+}
+.e-mail{
+    padding-top:250px;
 }
 .send-email input{
     font-size: 20px;
@@ -424,4 +440,46 @@ footer{
     background: #65E4A3;
     border: 2px solid #65E4A3;
     border-radius: 56px;
+}
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:100px;
+}
+.outro{
+    font-size: 16px;
+    line-height: 28px;
+    width:300px;
+}
+.outro p{
+    margin-top:30px;
+}
+.landings, .company, .resources{
+    display:flex;
+    flex-direction: column;
+    width:214px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 100px;
+}
+.landings ul, .company ul, .resources ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.landings li, .company li, .resources li{
+    margin-bottom: 20px;
+}
+#hiring{
+    background: #65E4A3;
+    border-radius: 120px;
+    border: none;
+    padding: 1px 14px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #0A2640;
+    margin-left:10px;
 }
