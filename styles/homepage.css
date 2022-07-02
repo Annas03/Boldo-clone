@@ -18,6 +18,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width:85%;
+    max-width: 1500px;
     left: 50%;
     transform: translate(-50%);
     overflow:visible;
@@ -118,7 +119,6 @@ header{
     margin-left: 15px;
 }
 .title{
-    margin-top: 70px;
     text-align: center;
     width: 842px;
     margin: 60px auto 0;
@@ -413,7 +413,7 @@ footer{
 .send-email h1{
     position: absolute;
     color: white;
-    width: 55%;
+    width: 600px;
     margin:0;
     left: 50%;
     transform: translate(-50%);
@@ -482,4 +482,314 @@ footer{
     line-height: 28px;
     color: #0A2640;
     margin-left:10px;
+}
+@media screen and (min-width: 1000px) and (max-width: 1349px){
+    header{
+        height: 700px;
+    }
+    .nav-bar{
+        width:90%;
+        max-width: 1000px;
+    }
+
+    .list-item{
+        margin:18px;
+    }
+    #log-in{
+        padding:7px 30px;
+        border-radius: 24px;
+        line-height: 22px;
+    }
+    .boldo-logo{
+        height:35px;
+    }
+    .intro{
+        width:90%;
+        max-width: 1000px;
+    }
+    .intro-text{
+        width:400px;
+        max-width: 480px;
+        height: 310px;
+    }
+    .intro-text h1{
+        color:white;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 38px;
+        line-height: 52px;
+    }
+    .intro-text p{
+        color:gray;
+        font-size: 16px;
+        line-height: 24px;
+        width: 567px;
+        height: 56px;
+        margin-top: 0;
+        width: 85%;
+    }
+    .intro-img{
+        width: 450px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 15px 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #grid-item-1{
+        height: 180px;
+        max-height:250px
+    }
+    #buy-template, #explore{
+        border-radius: 24px;
+        padding:14px 42px;
+    }
+    #explore{
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        margin-left: 12px;
+    }
+    .logos-list{
+        width:75%;
+        height:35px;
+        max-width: 900px;
+        margin:0 auto;  
+        padding-top:600px;
+    }
+    .title{
+        width: 842px;
+        margin: 50px auto 0;
+    }
+    .featurs-list{
+        width:75%;
+        max-width: 800px;
+        margin:30px auto 0;
+    }
+    #feature-one, #feature-two, #feature-three{
+        width:220px;
+    }
+    #feature-one img, #feature-two img, #feature-three img{
+        height:260px
+    }
+    .buisness-plans{
+        width:80%;
+        max-width: 800px;
+        margin: 70px auto;
+    }
+    .stats{
+        height: 500px;
+    }
+    .about{
+        width:350px;
+    }
+    .about h1{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 0;
+    }
+    .about ul{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .about img{
+        height: 30px;
+    }
+    .about li{
+        margin:10px auto;
+    }
+    .about span{
+        padding-left:15px;
+    }
+    .start-now{
+        margin-top:15px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        border-radius: 56px;
+        padding: 14px 36px;
+    }
+    .two .about{
+        margin-left:40px;
+    }
+    .testimonials{
+        height: 620px;
+    }
+    .heading{
+        width: 80%;
+        max-width: 900px;
+        padding-top:30px;
+    }
+    .heading h1{
+        width: 500px;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 52px;
+    }
+    .left-right-btns button{
+        width:52px;
+        height: 52px;
+        border-radius: 50%;
+        padding: 0;
+    }
+    #move-left{
+        margin-right: 5px;
+    }
+    .reviews{
+        width: 80%;
+        max-width: 850px;
+        margin: 50px auto 0;    
+    }
+    .review{
+        width:250px;
+    }
+    .review h3{
+        font-size: 20px;
+        line-height: 26px;
+        margin:30px auto 30px;
+    }
+    .user{
+        width:80%;
+        margin:0 auto 2em;
+    }
+    .user img{
+        height: 38px;
+    }
+    .name-designation h4{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 25px;
+        margin:0 auto 0;
+    }
+    .name-designation{
+        margin-left:10px;
+    }
+    .name-designation p{
+        font-size: 13px;
+        margin:0 auto;
+    }
+    .faqs{
+        width:90%;
+        max-width: 1140px;
+        margin:70px auto 50px;
+    }
+    #company{
+        height:40vh;
+    }
+    .faqs h2{
+        width:320px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .button-one, .button-two{
+        width: 380px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    #faqs-btn{
+        margin-top: 20px;
+        margin-left:100px;
+    }
+    .blog{
+        width:80%;
+        max-width:1000px;
+    }
+    .blog h1{
+        width:80%;
+        max-width: 750px;
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .blog h3{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .category-list{
+        max-width: 850px;
+        margin:50px auto;
+    }
+    .category-list-item{
+        width:250px;
+        text-align: start;   
+    }
+    .cat-person{
+        height:175px;
+    }
+    .category-list-item-data h3{
+        margin-top:20px;
+        height:85px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    #load-more{
+        border: 1px solid #0A2640;
+        border-radius: 56px;
+        padding: 12px 34px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-top:20px;
+    }
+    footer{
+        width: 90%;
+        max-width: 900px;
+        margin: 70px auto 0;
+    }
+    .send-email{
+        height:300px;
+    }
+    .send-email h1{
+        width: 400px;
+        padding-top: 50px;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    #elipse-two{
+        top:-180px;
+        height:400px; 
+    }
+    .e-mail{
+        padding-top:185px;
+    }
+    .send-email input{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 6px 32px;
+    }
+    .start{
+        font-size: 18px;
+        line-height: 24px;
+        padding: 8px 32px;
+    }
+    .footer{
+        margin-top:70px;
+    }
+    .outro{
+        font-size: 14px;
+        line-height: 20px;
+        width:300px;
+    }
+    .landings, .company, .resources{
+        width:214px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 50px;
+    }
+    .landings h2, .company h2, .resources h2{
+        margin-top: 0;
+    }
+    .outro p{
+        margin-top:45px;
+    }
+    .landings li, .company li, .resources li{
+        margin-bottom: 15px;
+    }
 }

@@ -1,5 +1,8 @@
 let testimonials = [document.getElementById("review-one"), document.getElementById("review-two"), document.getElementById("review-three")]
-testimonials[1].style.height = "350px"
+if(screen.width > 1349){
+    testimonials[1].style.height = "350px"
+}
+testimonials[1].style.height = "300px"
 
 document.getElementById("move-left").addEventListener("click", leftClicked)
 
@@ -12,7 +15,10 @@ function leftClicked(){
     testimonials[2].style.order = "2"
 
     testimonials[0].style.height = "auto"
-    testimonials[1].style.height = "350px"
+    if(screen.width > 1349){
+        testimonials[1].style.height = "350px"
+    }
+    testimonials[1].style.height = "300px"
     testimonials[2].style.height = "auto"
 }
 
@@ -23,6 +29,9 @@ function rightClicked(){
     testimonials[2].style.order = "2"
 
     testimonials[0].style.height = "auto"
-    testimonials[1].style.height = "350px"
+    if(screen.width > 1349){
+        testimonials[1].style.height = "350px"
+    }
+    testimonials[1].style.height = "300px"
     testimonials[2].style.height = "auto"
 }
