@@ -5,12 +5,16 @@ body{
 header{
     background-image: url("/assets/homepage/Rectangle\ 1268.png");
     height: 798px;
+    position: relative;
 }
 #elipse{
     top:0;
     right:0;
     position: absolute;
     z-index: 0;
+}
+#mobile-navbar{
+    display: none;
 }
 .nav-bar{
     position: absolute;
@@ -791,5 +795,75 @@ footer{
     }
     .landings li, .company li, .resources li{
         margin-bottom: 15px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:999px) {
+    header{
+        height: 600px;
+    }
+    .nav-bar{
+        margin-top: 40px;
+    }
+    .nav-bar ul{
+        display: none;
+    } 
+    #elipse{
+        height: 200px;
+    }
+    .boldo-logo{
+        height:25px;
+    }
+    .intro{
+        position: absolute;
+        padding-top:150px;
+        display: block;
+        width:80%;
+        /* max-width: 1200px; */
+    }
+    .intro-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-between;
+        padding: 0px;
+        width: 100%;
+        height: 250px;
+    }
+    .intro-text h1{
+        margin:0 auto;
+        font-size: 18px;
+        line-height: 30px;
+        width:80%;
+        text-align: center;
+    }
+    .intro-text p{
+        color:gray;
+        font-size: 14px;
+        line-height: 22px;
+        height: 56px;
+        margin-top: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #grid-item-2, #grid-item-1{
+        display: none;
+    }
+    .button-list{
+        display: flex;
+        justify-content: space-around;
+    }
+    #buy-template, #explore{
+        border-radius: 24px;
+        padding:10px 25px;
+        font-size: 14px;
+    }
+    #explore{
+        margin-left: 0;
+    }
+    .logos-list{
+        width:85%;
+        max-width: 1050px;
+        padding-top:500px;
+        height: 18px;
     }
 }

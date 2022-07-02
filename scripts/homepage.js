@@ -2,7 +2,9 @@ let testimonials = [document.getElementById("review-one"), document.getElementBy
 if(screen.width > 1349){
     testimonials[1].style.height = "350px"
 }
-testimonials[1].style.height = "300px"
+else{
+    testimonials[1].style.height = "300px"
+}
 
 document.getElementById("move-left").addEventListener("click", leftClicked)
 
@@ -18,7 +20,9 @@ function leftClicked(){
     if(screen.width > 1349){
         testimonials[1].style.height = "350px"
     }
-    testimonials[1].style.height = "300px"
+    else{
+        testimonials[1].style.height = "300px"
+    }
     testimonials[2].style.height = "auto"
 }
 
@@ -32,6 +36,8 @@ function rightClicked(){
     if(screen.width > 1349){
         testimonials[1].style.height = "350px"
     }
-    testimonials[1].style.height = "300px"
+    else{
+        testimonials[1].style.height = "300px"
+    }
     testimonials[2].style.height = "auto"
 }
