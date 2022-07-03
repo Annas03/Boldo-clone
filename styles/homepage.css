@@ -797,7 +797,7 @@ footer{
         margin-bottom: 15px;
     }
 }
-@media screen and (min-width:375px) and (max-width:999px) {
+@media screen and (min-width:375px) and (max-width:600px) {
     header{
         height: 600px;
     }
@@ -865,5 +865,244 @@ footer{
         max-width: 1050px;
         padding-top:500px;
         height: 18px;
+    }
+    .title{
+        width: 320px;
+        margin: 50px auto 0;
+    }
+    .title h1{
+        font-size: 22px;
+        line-height: 34px;
+
+    }
+    .title h3{
+        font-size: 18px;
+    }
+    .featurs-list{
+        width:80%;
+        max-width: 500px;
+        margin:40px auto 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #feature-one, #feature-two, #feature-three{
+        width:240px;
+        margin-bottom: 30px;
+
+    }
+    #feature-one img, #feature-two img, #feature-three img{
+        height: 283px;
+    }
+    .buisness-plans{
+        width:80%;
+        max-width: 1140px;
+        margin: 40px auto;
+    }
+    .one{
+        flex-wrap: wrap;
+        justify-content: center;
+        width:320px;
+        margin: auto;
+    }
+    .stats{
+        height: 320px;
+    }
+    .about h1{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .about ul{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .about li{
+        margin:15px auto;
+    }
+    .about img{
+        height: 30px;
+    }
+    .about span{
+        padding-left:10px;
+    }
+    .start-now{
+        margin-top:15px;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 12px 30px;
+    }
+    .two{
+        justify-content: center;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    .two .about{
+        order:1;
+    }
+    #two-img{
+        height: 400px;
+        order:0;
+    }
+    .testimonials{
+        background-image: url("/assets/homepage/Rectangle\ 1268.png");
+        height: 550px;
+    }
+    .heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+        max-width: 1140px;
+        padding-top:0px;
+    }
+    .heading h1{
+        width: 350px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 0;
+        color: white;
+    }
+    .left-right-btns{
+        display: flex;
+    }
+    .left-right-btns button{
+        width:38px;
+        height: 38px;
+        border-radius: 50%;
+        padding: 0;
+    }
+    #move-left{
+        margin-right: 10px;
+    }
+    .reviews{
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 98%;
+        max-width: 1140px;
+        margin:50px auto 0;    
+    }
+    .review{
+        width:120px;
+        background-color: white;
+        border-radius: 12px;
+    }
+    .review h3{
+        width:80%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin:10px auto 10px;
+    }
+    .user{
+        width:100%;
+        margin:0 auto 15px;
+    }
+    .user img{
+        height: 34px;
+    }
+    .name-designation h4{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 12px;
+        margin:0 auto 0;
+    }
+    .name-designation{
+        margin-left:10px;
+    }
+    .name-designation p{
+        font-size: 10px;
+        margin:5px auto 0;
+    }
+    .faqs{
+        width:100%;
+        max-width: 1140px;
+        margin:50px auto 50px;
+    }
+    #company{
+        height:135px;
+    }
+    .faqs h2{
+        width:300px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    #faqs-btn{
+        margin-top: 5px;
+        margin-left:0;
+    }
+    .button-one, .button-two{
+        width: 350px;
+        border-bottom: 1px solid #0A2640;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .blog{
+        width:90%;
+        max-width:1140px;
+    }
+    .blog h1{
+        width:100%;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        margin:auto;
+    }
+    .blog h3{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .category-list{
+        flex-wrap: wrap;
+        margin-top:40px;
+        justify-content: center;
+    }
+    .category-list-item{
+        width:250px;
+        margin-top: 40px;
+    }
+    .cat-person{
+        height: 175px;
+    }
+    .category-list-item span{
+        margin-top:5px;
+    }
+    .category-list-item-data{
+        margin-top: 5px;
+    }
+    .category-list-item-data h3{
+        margin-top:0.5em;
+        height:76px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+    .user-info img{
+        height: 32px;
+    }
+    .user-info{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 0;
+    }
+    .user-info span{
+        margin:auto 0 auto 0.7em;
+    }
+    #load-more{
+        border: 1px solid #0A2640;
+        border-radius: 56px;
+        padding: 8px 28px;
+        background-color: transparent;
+        font-weight: 700;
+        font-size: 18px;
+        color: #0A2640;
+        line-height: 28px;
+        margin-top:50px;
     }
 }

@@ -2,6 +2,9 @@ let testimonials = [document.getElementById("review-one"), document.getElementBy
 if(screen.width > 1349){
     testimonials[1].style.height = "350px"
 }
+if(screen.width < 600){
+    testimonials[1].style.height = "280px"
+}
 else{
     testimonials[1].style.height = "300px"
 }
