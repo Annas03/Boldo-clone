@@ -802,14 +802,53 @@ footer{
 }
 @media screen and (min-width:375px) and (max-width:600px) {
     header{
-        height: 500px;
+        height: 530px;
+    }
+    #mobile-navbar,#mobile-navbar::before,#mobile-navbar::after{
+        background-color: white;
+        width: 30px;
+        height:4px;
+    }
+    #mobile-navbar{
+        display: inline-block;
+        position: relative;
+    }
+    #mobile-navbar::before{
+        position: absolute;
+        content: "";
+        top:-8px;
+    }
+    #mobile-navbar::after{
+        position: absolute;
+        content: "";
+        bottom:-8px;
+
     }
     .nav-bar{
         margin-top: 40px;
     }
     .nav-bar ul{
-        display: none;
-    } 
+        position: absolute;
+        display:none;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        max-width: 400px;
+        left: 50%;
+        transform: translate(-50%);
+        margin:150px auto 0;
+
+    }
+    .list-item{
+        margin:10px;
+        font-size: 15px;
+    }
+    #log-in{
+        padding:4px 18px;
+        border-radius: 24px;
+        line-height: 18px;
+    }
+
     #elipse{
         height: 200px;
     }
@@ -818,7 +857,7 @@ footer{
     }
     .intro{
         position: absolute;
-        padding-top:15ch;
+        padding-top:180px;
         display: block;
         width:80%;
         /* max-width: 1200px; */
@@ -866,8 +905,12 @@ footer{
     .logos-list{
         width:85%;
         max-width: 1050px;
-        padding-top:420px;
+        padding-top:450px;
         height: 18px;
+    }
+    .our-services{
+        max-width: 570px;
+        margin: auto;
     }
     .title{
         width: 320px;
@@ -984,11 +1027,12 @@ footer{
         justify-content: space-between;
         align-items: flex-start;
         width: 98%;
-        max-width: 1140px;
+        max-width: 500px;
         margin:50px auto 0;    
     }
     .review{
-        width:120px;
+        width:32%;
+        max-width: 150px;
         background-color: white;
         border-radius: 12px;
     }
@@ -1045,7 +1089,7 @@ footer{
     }
     .blog{
         width:90%;
-        max-width:1140px;
+        max-width:490px;
     }
     .blog h1{
         width:100%;
@@ -1060,9 +1104,10 @@ footer{
         line-height: 32px;
     }
     .category-list{
+
         flex-wrap: wrap;
-        margin-top:40px;
-        justify-content: center;
+        margin-top:0px;
+        justify-content:center;
     }
     .category-list-item{
         width:250px;
@@ -1110,7 +1155,7 @@ footer{
     }
     footer{
         width: 100%;
-        max-width: 1140px;
+        max-width: 570px;
         margin: 50px auto 0;
     }
     .send-email{
@@ -1145,7 +1190,8 @@ footer{
     }
     .footer{
         flex-wrap: wrap;
-        margin-top:30px;
+        max-width: 300px;
+        margin:20px auto 0;
     }
     .footer h2{
         font-size: 20px;
@@ -1156,7 +1202,7 @@ footer{
         width:100px;
         max-width: 400px;
         line-height: 24px;
-        margin:auto
+        margin:0;
     }
     .landings li, .company li, .resources li{
         margin-bottom: 15px;
