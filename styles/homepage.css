@@ -452,6 +452,9 @@ footer{
     align-items: center;
     margin-top:100px;
 }
+.footer h2{
+    font-size: 24px;
+}
 .outro{
     font-size: 16px;
     line-height: 28px;
@@ -465,7 +468,6 @@ footer{
     flex-direction: column;
     width:214px;
     font-weight: 700;
-    font-size: 20px;
     line-height: 32px;
     margin-left: 100px;
 }
@@ -475,6 +477,7 @@ footer{
 }
 .landings li, .company li, .resources li{
     margin-bottom: 20px;
+    font-size: 20px;
 }
 #hiring{
     background: #65E4A3;
@@ -799,7 +802,7 @@ footer{
 }
 @media screen and (min-width:375px) and (max-width:600px) {
     header{
-        height: 600px;
+        height: 500px;
     }
     .nav-bar{
         margin-top: 40px;
@@ -815,7 +818,7 @@ footer{
     }
     .intro{
         position: absolute;
-        padding-top:150px;
+        padding-top:15ch;
         display: block;
         width:80%;
         /* max-width: 1200px; */
@@ -827,19 +830,19 @@ footer{
         align-items: space-between;
         padding: 0px;
         width: 100%;
-        height: 250px;
+        height: 220px;
     }
     .intro-text h1{
         margin:0 auto;
-        font-size: 18px;
-        line-height: 30px;
-        width:80%;
+        font-size: 26px;
+        line-height: 26px;
+        width:90%;
         text-align: center;
     }
     .intro-text p{
         color:gray;
         font-size: 14px;
-        line-height: 22px;
+        line-height: 18px;
         height: 56px;
         margin-top: 0;
         width: 100%;
@@ -863,7 +866,7 @@ footer{
     .logos-list{
         width:85%;
         max-width: 1050px;
-        padding-top:500px;
+        padding-top:420px;
         height: 18px;
     }
     .title{
@@ -1104,5 +1107,67 @@ footer{
         color: #0A2640;
         line-height: 28px;
         margin-top:50px;
+    }
+    footer{
+        width: 100%;
+        max-width: 1140px;
+        margin: 50px auto 0;
+    }
+    .send-email{
+        height:300px;
+    }
+    #elipse-two{
+        top:-70px;
+        height:200px; 
+    }
+    .send-email h1{
+        width: 90%;
+        padding-top: 50px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .e-mail{
+        padding-top:160px;
+    }
+    .send-email input{
+        font-size: 18px;
+        line-height: 20px;
+        background: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 240px;
+        padding: 6px 32px;
+    }
+    .start{
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 24px;
+        padding: 8px 32px;
+    }
+    .footer{
+        flex-wrap: wrap;
+        margin-top:30px;
+    }
+    .footer h2{
+        font-size: 20px;
+        margin-bottom: 0;
+        border-bottom: 1px solid black;
+    }
+    .landings, .company, .resources{
+        width:100px;
+        max-width: 400px;
+        line-height: 24px;
+        margin:auto
+    }
+    .landings li, .company li, .resources li{
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    #hiring{
+        padding: 1px 5px;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 18px;
+        color: #0A2640;
+        margin-left:0px;
     }
 }
