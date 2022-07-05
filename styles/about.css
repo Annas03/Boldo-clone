@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    background-image: url("/assets/homepage/Rectangle\ 1268.png");
+    height: 615px;
+    position: relative;
+}
+#mobile-navbar{
+    display: none;
+}
+.nav-bar{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:85%;
+    max-width: 1500px;
+    left: 50%;
+    transform: translate(-50%);
+    overflow:visible;
+    z-index: 1;
+}
+.nav-bar ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    padding-left: 0;
+}
+.list-item{
+    margin:20px;
+    font-size: 18px;
+}
+#log-in{
+    background-color: white;
+    border: none;
+    padding:8px 40px;
+    border-radius: 24px;
+    line-height: 24px;
+}
+.boldo-logo{
+    height:45px;
+}
+.header-text{
+padding-top:120px;
+width: 48%;
+margin:auto;
+text-align: center;
+color: #FFFFFF;
+}
+.header-text h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+.header-text h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    margin: 0 auto 20px;
+}
+.header-text p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 0;
+}
+#img-one{
+    grid-area: img-one;
+}
+#big-img{
+    grid-area: img-two;
+}
+#img-three{
+    grid-area: img-three;
+}
+#img-four{
+    grid-area: img-four;
+}
+#img-five{
+    grid-area: img-five;
+}
+#our-story{
+    position: relative;
+}
+.story-images{
+    top: -100px;
+    position: absolute;
+    width:75%;
+    left:50%;
+    transform: translate(-50%);
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+                        "img-one img-two img-three"
+                        "img-four img-two img-five";
+}
+.story-text{
+    padding-top: 600px;
+    width: 55%;
+    margin: auto;
+}
+.story-text h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+}
+.story-text h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    margin:0 auto;
+    line-height: 72px;
+}
+.story-text p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+}
