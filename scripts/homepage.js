@@ -1,14 +1,14 @@
 let mobileNavBarIsClicked = false
 let testimonials = [document.getElementById("review-one"), document.getElementById("review-two"), document.getElementById("review-three")]
-if(screen.width > 1349){
-    testimonials[1].style.height = "350px"
-}
-if(screen.width < 600){
-    testimonials[1].style.height = "280px"
-}
-else{
-    testimonials[1].style.height = "300px"
-}
+// if(screen.width > 1349){
+//     testimonials[1].style.height = "350px"
+// }
+// if(screen.width < 600){
+//     testimonials[1].style.height = "260px"
+// }
+// else{
+//     testimonials[1].style.height = "260px"
+// }
 
 
 document.getElementById("move-left").addEventListener("click", leftClicked)
@@ -32,14 +32,14 @@ function TestimonialsStyles(){
     testimonials[1].style.order = "1"
     testimonials[2].style.order = "2"
 
-    testimonials[0].style.height = "auto"
-    if(screen.width > 1349){
-        testimonials[1].style.height = "350px"
-    }
-    else{
-        testimonials[1].style.height = "300px"
-    }
-    testimonials[2].style.height = "auto"
+    // testimonials[0].style.height = "auto"
+    // if(screen.width > 1349){
+    //     testimonials[1].style.height = "350px"
+    // }
+    // else{
+    //     testimonials[1].style.height = "260px"
+    // }
+    // testimonials[2].style.height = "auto"
 }
 
 function mobileNavbarClicked(){
