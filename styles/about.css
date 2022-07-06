@@ -45,11 +45,12 @@ header{
     height:45px;
 }
 .header-text{
-padding-top:120px;
-width: 48%;
-margin:auto;
-text-align: center;
-color: #FFFFFF;
+    padding-top:120px;
+    width: 48%;
+    max-width: 680px;
+    margin:auto;
+    text-align: center;
+    color: #FFFFFF;
 }
 .header-text h3{
     font-family: 'Open Sans';
@@ -97,6 +98,7 @@ color: #FFFFFF;
     top: -100px;
     position: absolute;
     width:75%;
+    max-width:1050px;
     left:50%;
     transform: translate(-50%);
     display: grid;
@@ -110,6 +112,7 @@ color: #FFFFFF;
 .story-text{
     padding-top: 600px;
     width: 55%;
+    max-width:900px;
     margin: 0 auto 80px;
 }
 .story-text h3{
@@ -160,6 +163,7 @@ color: #FFFFFF;
     font-size: 48px;
     line-height: 72px;
     margin:0 auto;
+    max-width: 980px;
 }
 .numbers{
     display: flex;
@@ -187,6 +191,7 @@ color: #FFFFFF;
 }
 .our-team{
     width:70%;
+    max-width: 1050px;
     margin:90px auto;
 }
 .team-text{
@@ -247,6 +252,7 @@ color: #FFFFFF;
 }
 .values-text{
     width:60%;
+    max-width:900px;
     margin: auto;
     color: white;
     padding-top: 80px;
@@ -277,6 +283,7 @@ color: #FFFFFF;
 }
 .values-list{
     width:60%;
+    max-width:900px;
     margin:auto;
     padding:50px 0 70px;
 }
@@ -404,4 +411,202 @@ footer{
     line-height: 28px;
     color: #0A2640;
     margin-left:10px;
+}
+@media screen and (min-width:800px) and (max-width:1399px) {
+    header{
+        height: 550px;
+    }
+    .nav-bar{
+        max-width: 1000px;
+    }
+    .list-item{
+        margin:15px;
+        font-size: 18px;
+    }
+    .boldo-logo{
+        height:38px;
+    }
+    .header-text{
+        width: 58%;
+        max-width: 600px;
+
+    }
+    .header-text h1{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .header-text p{
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 0;
+    }
+    .story-images img{
+        width: 180px;
+    }
+    .story-images{
+        top: -120px;
+        width:80%;
+        max-width: 650px;
+        grid-gap: 10px;
+    }
+    #big-img{
+        width:250px;
+    }
+    #img-one, #img-four {
+        margin: auto;
+    }
+    .story-text{
+        padding-top: 350px;
+        width: 75%;
+    }
+    .story-text h1{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .story-text p{
+        font-size: 18px;
+    }
+    #our-numbers{
+        height:400px;
+        padding-top: 30px;
+    }
+    .numbers{
+        justify-content: space-between;
+        max-width: 700px;
+    }
+    .numbers-text{
+        width: 80%;
+        max-width: 640px;
+    }
+    .numbers-text h1{
+        font-size: 42px;
+        line-height: 52px;  
+        max-width: 600px;
+    }
+    .features h1{
+        font-size: 56px;
+        line-height: 46px;
+    }
+    .features p{
+        font-size: 20px;
+        line-height: 18px;
+        color: #F1F1F1;
+    }
+    .our-team{
+        width:85%;
+        max-width: 700px;
+        margin:60px auto;
+    }
+    .team-text{
+        width: 600px;
+        max-width: 900px;
+        margin:auto;
+    }
+    .team-text h1{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .team-text p{
+        width:85%;
+        font-size: 18px;
+    }
+    .team-list{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .last-member{
+        margin-top: 30px;
+    }
+    .about-team-member h3{
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .about-team-member h4{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .values-text{
+        width:80%;
+        max-width:800px;
+        padding-top: 60px;
+    }
+    .values-text h3{
+        line-height: 26px;
+    }
+    .values-text h1{
+        font-size: 42px;
+    }
+    .values-text p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .values-list{
+        width:80%;
+        max-width:750px;
+        padding:50px 0 50px;
+    }
+    .values{
+        margin-bottom: 40px;
+    }
+    .value h3{
+        font-size: 24px;
+        line-height: 38px;
+        margin:0;
+    }
+    .value p{
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 8px;
+    }
+    footer{
+        width: 100%;
+        max-width: 1000px;
+        margin: 40px auto 0;
+    }
+    .send-email{
+        height:350px;
+    }
+    #elipse-two{
+        top:-120px;
+        height:300px;
+        transform: rotate(-15deg);   
+    }
+    .send-email h1{
+        width: 80%;
+        max-width: 600px;
+        font-size: 38px;
+        line-height: 52px;
+    }
+    .e-mail{
+        padding-top:220px;
+    }
+    .send-email input{
+        font-size: 18px;
+        line-height: 26px;
+        padding: 8px 32px;
+    }
+    .start{
+        font-size: 18px;
+        line-height: 28px;
+        padding: 8px 36px;
+    }
+    .footer{
+        width:90%;
+        margin:100px auto 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer h2{
+        font-size: 26px;
+    }
+    .landings, .company, .resources{
+        margin-left: 50px;
+    }
+    .company{
+        margin-left: 0;
+    }
+    #hiring{
+        padding: 1px 10px;
+    }
 }

@@ -40,6 +40,10 @@ header{
     margin:20px;
     font-size: 18px;
 }
+.list-item a{
+    color:white;
+    text-decoration: none;
+}
 #log-in{
     background-color: white;
     border: none;
