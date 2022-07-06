@@ -110,7 +110,7 @@ color: #FFFFFF;
 .story-text{
     padding-top: 600px;
     width: 55%;
-    margin: auto;
+    margin: 0 auto 80px;
 }
 .story-text h3{
     font-style: normal;
@@ -134,4 +134,274 @@ color: #FFFFFF;
     font-size: 20px;
     line-height: 32px;
     color: #777777;
+}
+#our-numbers{
+    background-image: url("/assets/homepage/Rectangle\ 1268.png");
+    height:510px;
+    color: white;
+    padding-top: 70px;
+}
+.numbers-text{
+    width:70%;
+    margin:auto;
+    text-align: center;
+}
+.numbers-text h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+.numbers-text h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin:0 auto;
+}
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:80%;
+    margin:auto;
+}
+.features h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 56px;
+    color:#4FE9A4;
+    margin-bottom:0;
+}
+.features p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F1F1F1;
+}
+.our-team{
+    width:70%;
+    margin:90px auto;
+}
+.team-text{
+    width: 80%;
+    margin: auto;
+}
+.team-text h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+    margin-bottom: 0;
+}
+.team-text h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin:0 auto;
+}
+.team-text p{
+    width:85%;
+    margin:10px 0 0 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color:#777777;
+}
+.team-list{
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-team-member h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    margin:10px auto 0;
+}
+.about-team-member h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0;
+    color: #777777;
+}
+.our-values{
+    background-image: url("/assets/homepage/Rectangle\ 1268.png");
+}
+.values-text{
+    width:60%;
+    margin: auto;
+    color: white;
+    padding-top: 80px;
+}
+.values-text h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top:0;
+}
+.values-text h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0;
+}
+.values-text p{
+    width:80%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color:#F1F1F1;
+}
+.values-list{
+    width:60%;
+    margin:auto;
+    padding:50px 0 70px;
+}
+.values{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.value{
+    width:70%;
+    margin:auto;
+    color: white;
+}
+.value h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    margin:0;
+}
+.value p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    width:100%;
+    margin-top: 10px;
+    color: #F1F1F1;
+}
+footer{
+    width: 80%;
+    max-width: 1140px;
+    margin: 6em auto 0;
+}
+.send-email{
+    text-align: center;
+    background-image: url("/assets/homepage/Rectangle\ 1268.png");
+    height:391px;
+    position: relative;
+    overflow: hidden;
+}
+#elipse-two{
+    top:-200px;
+    right:0;
+    position: absolute;
+    z-index: 0;
+    height:500px;
+    transform: rotate(-15deg);   
+}
+.send-email h1{
+    position: absolute;
+    color: white;
+    width: 600px;
+    margin:0;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 70px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+}
+.e-mail{
+    padding-top:250px;
+}
+.send-email input{
+    font-size: 20px;
+    line-height: 32px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 240px;
+    padding: 10px 56px;
+}
+.start{
+    font-size: 20px;
+    line-height: 28px;
+    padding: 16px 56px;
+    background: #65E4A3;
+    border: 2px solid #65E4A3;
+    border-radius: 56px;
+}
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:100px;
+}
+.footer h2{
+    font-size: 24px;
+}
+.outro{
+    font-size: 16px;
+    line-height: 28px;
+    width:300px;
+}
+.outro p{
+    margin-top:30px;
+}
+.landings, .company, .resources{
+    display:flex;
+    flex-direction: column;
+    width:214px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 100px;
+}
+.landings ul, .company ul, .resources ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.landings li, .company li, .resources li{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#hiring{
+    background: #65E4A3;
+    border-radius: 120px;
+    border: none;
+    padding: 1px 14px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #0A2640;
+    margin-left:10px;
 }
