@@ -1,0 +1,235 @@
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    position: relative;
+}
+#mobile-navbar{
+    display: none;
+}
+.nav-bar{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:85%;
+    max-width: 1500px;
+    left: 50%;
+    transform: translate(-50%);
+    overflow:visible;
+    z-index: 1;
+}
+.nav-bar ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    color: #0A2640;
+    padding-left: 0;
+}
+.list-item{
+    margin:20px;
+    font-size: 18px;
+}
+#log-in{
+    background-color: white;
+    border: 2px solid #0A2640;
+    padding:8px 40px;
+    border-radius: 24px;
+    line-height: 24px;
+}
+.header-text{
+    padding-top:120px;
+    width: 85%;
+    max-width: 1200px;
+    margin:auto;
+    text-align: center;
+    color: #0A2640;
+}
+.header-text h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+.header-text h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    margin: 0 auto 50px;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #0A2640;
+}
+.about-category{
+    text-align: start;
+    margin-left: 100px;
+}
+.about-category h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.about-category span{
+    margin-left: 20px;
+}
+.about-category h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 10px;
+}
+.user-info{
+    display: flex;
+    justify-content: flex-start;
+}
+.user-info h4{
+    margin-block: auto;
+    margin-left: 10px;
+}
+.latest-news{
+    width:75%;
+    margin:auto;
+    padding-top: 90px;
+}
+.latest-news h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 0;
+}
+.latest-news-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.latest-news-item{
+    width: 300px;
+    margin-top:50px;
+    align-self: flex-start;
+}
+#load-more{
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+    padding: 16px 56px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0A2640;
+    line-height: 28px;
+    margin: 70px auto 50px;
+    display: block;
+}
+footer{
+    width: 80%;
+    max-width: 1140px;
+    margin: 6em auto 0;
+}
+.send-email{
+    text-align: center;
+    background-image: url("/assets/homepage/Rectangle\ 1268.png");
+    height:391px;
+    position: relative;
+    overflow: hidden;
+}
+#elipse-two{
+    top:-200px;
+    right:0;
+    position: absolute;
+    z-index: 0;
+    height:500px;
+    transform: rotate(-15deg);   
+}
+.send-email h1{
+    position: absolute;
+    color: white;
+    width: 600px;
+    margin:0;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 70px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+}
+.e-mail{
+    padding-top:250px;
+}
+.send-email input{
+    font-size: 20px;
+    line-height: 32px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 240px;
+    padding: 10px 56px;
+}
+.start{
+    font-size: 20px;
+    line-height: 28px;
+    padding: 16px 56px;
+    background: #65E4A3;
+    border: 2px solid #65E4A3;
+    border-radius: 56px;
+}
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:100px;
+}
+.footer h2{
+    font-size: 24px;
+}
+.outro{
+    font-size: 16px;
+    line-height: 28px;
+    width:300px;
+}
+.outro p{
+    margin-top:30px;
+}
+.landings, .company, .resources{
+    display:flex;
+    flex-direction: column;
+    width:214px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 100px;
+}
+.landings ul, .company ul, .resources ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.landings li, .company li, .resources li{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#hiring{
+    background: #65E4A3;
+    border-radius: 120px;
+    border: none;
+    padding: 1px 14px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #0A2640;
+    margin-left:10px;
+}
