@@ -7,6 +7,10 @@ header{
     height: 798px;
     position: relative;
 }
+a{
+    text-decoration: none;
+    color:#0A2640;
+}
 #elipse{
     top:0;
     right:0;
@@ -39,6 +43,8 @@ header{
 .list-item{
     margin:20px;
     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 .list-item a{
     color:white;
@@ -50,6 +56,8 @@ header{
     padding:8px 40px;
     border-radius: 24px;
     line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 .boldo-logo{
     height:45px;
@@ -85,17 +93,19 @@ header{
     line-height: 72px;
 }
 .intro-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     color:gray;
     font-size: 16px;
     line-height: 28px;
-    width: 567px;
+    width: 100%;
     height: 56px;
-    margin-top: 0;
-    width: 85%;
+    margin-top: 0;  
 }
 .intro-img{
     display: grid;
-    grid-gap: 1em;
+    grid-gap: 15px;
     grid-template-columns: 15px 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
@@ -107,13 +117,16 @@ header{
     width:70%;
     max-width: 1050px;
     margin:0 auto;  
-    padding-top:42em;
+    padding-top:680px;
     display: flex;
     justify-content: space-around;
 }
 #buy-template, #explore{
-    border-radius: 24px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    border-radius: 56px;
     padding:16px 56px;
+    font-size: 20px;
 }
 #buy-template{
     border: 0;
@@ -132,20 +145,29 @@ header{
     margin: 60px auto 0;
 }
 .title h1{
+    font-family: 'Manrope';
+    font-weight: 400;
     font-size: 42px;
     line-height: 62px;
     margin-top: 0;
 }
 .title h3{
+    font-family: 'Open Sans';
+    font-weight: 400;
     font-size: 20px;
 }
 .featurs-list{
     width:80%;
     max-width: 1140px;
-    margin:3em auto 0;
+    margin:60px auto 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.featurs-list h3, .featurs-list p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
 }
 #feature-one, #feature-two, #feature-three{
     width:300px;
@@ -178,6 +200,8 @@ header{
     transform: rotate(-50deg);
 }
 .feature-btn{
+    font-family: 'Open Sans';
+    font-weight: 700;
     position: relative;
     color: #0A2640;
     border: none;
@@ -187,7 +211,7 @@ header{
 .buisness-plans{
     width:80%;
     max-width: 1140px;
-    margin: 6em auto;
+    margin: 120px auto;
 }
 .one{
     display: flex;
@@ -198,12 +222,15 @@ header{
     width:450px;
 }
 .about h1{
+    font-family: 'Manrope';
+    font-weight: 400;
     font-weight: 400;
     font-size: 36px;
     line-height: 56px;
     margin-top: 0;
 }
 .about ul{
+    font-family: 'Open Sans';
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -216,10 +243,10 @@ header{
     margin:1em auto;
 }
 .about span{
-    padding-left:1em;
+    padding-left:15px;
 }
 .start-now{
-    margin-top:1em;
+    margin-top:12px;
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
@@ -252,11 +279,12 @@ header{
     width: 85%;
     max-width: 1140px;
     margin:auto;
-    padding-top:3.5em;
+    padding-top:60px;
 }
 .heading h1{
-    width: 716px;
+    font-family: 'Manrope';
     font-weight: 400;
+    width: 716px;
     font-size: 48px;
     line-height: 72px;
     margin-bottom: 0;
@@ -282,7 +310,7 @@ header{
     align-items: flex-start;
     width: 75%;
     max-width: 1140px;
-    margin:4.5em auto 0;    
+    margin:80px auto 0;    
 }
 .review{
     width:325px;
@@ -290,45 +318,50 @@ header{
     border-radius: 12px;
 }
 .review h3{
-    width:80%;
+    font-family: 'Open Sans';
     font-weight: 400;
+    width:80%;
     font-size: 24px;
     line-height: 36px;
-    margin:1em auto 1em;
+    margin:20px auto;
 }
 .user{
     display: flex;
     justify-content: start;
     align-items: center;
     width:80%;
-    margin:0 auto 2em;
+    margin:0 auto 30px;
 }
 .user img{
     height: 58px;
 }
 .name-designation h4{
+    font-family: 'Open Sans';
     font-weight: 700;
     font-size: 16px;
     line-height: 32px;
     margin:0 auto 0;
 }
 .name-designation{
-    margin-left:1em;
+    margin-left:10px;
 }
 .name-designation p{
+    font-family: 'Open Sans';
+    font-weight: 400;
     font-size: 14px;
-    margin:0.5em auto 0;
+    margin:0 auto 0;
 }
 .faqs{
     width:80%;
     max-width: 1140px;
-    margin:7em auto 5em;
+    margin:120px auto 70px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 .faqs h2{
     width:500px;
+    font-family: 'Manrope';
     font-weight: 400;
     font-size: 36px;
     line-height: 56px;
@@ -338,6 +371,8 @@ header{
     background-color: transparent;
 }
 .button-one, .button-two{
+    font-family: 'Open Sans';
+    font-weight: 400;
     display: flex;
     width: 500px;
     justify-content: space-between;
@@ -347,8 +382,8 @@ header{
     line-height: 32px;
 }
 #faqs-btn{
-    margin-top: 1.5em;
-    margin-left:5em;
+    margin-top: 18pz;
+    margin-left:80px;
 }
 .blog{
     width:75%;
@@ -357,6 +392,8 @@ header{
     text-align: center;
 }
 .blog h1{
+    font-family: 'Manrope';
+    font-weight: 400;
     width:80%;
     font-weight: 400;
     font-size: 48px;
@@ -364,6 +401,7 @@ header{
     margin:auto;
 }
 .blog h3{
+    font-family: 'Open Sans';
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -372,7 +410,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top:3em;
+    margin-top:60px;
 }
 .category-list-item{
     width:300px;
@@ -391,22 +429,25 @@ header{
     font-size: 20px;
     color: #0A2640;
     line-height: 28px;
-    margin-top:3em;
+    margin-top:55px;
 }
 .cat{
+    font-family: 'Open Sans';
     font-weight: 700;
     font-size: 16px;
     line-height: 28px;
     color: #0A2640;
 }
 .date{
-    margin-left:1em;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin-left:10px;
 }
 .category-list-item-data{
-    margin-top: 1em;
+    margin-top: 12px;
 }
 .category-list-item-data h3{
-    margin-top:0.5em;
+    margin-top:6px;
     height:96px;
     font-weight: 400;
     font-size: 20px;
@@ -419,15 +460,17 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 1em;
+    margin-top: 12px;
 }
 .user-info span{
-    margin:auto 0 auto 0.7em;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin:auto 0 auto 8px;
 }
 footer{
     width: 80%;
     max-width: 1140px;
-    margin: 6em auto 0;
+    margin: 110px auto 0;
 }
 .send-email{
     text-align: center;
@@ -447,11 +490,12 @@ footer{
 .send-email h1{
     position: absolute;
     color: white;
-    width: 600px;
+    width: 750px;
     margin:0;
     left: 50%;
     transform: translate(-50%);
     padding-top: 70px;
+    font-family: 'Manrope';
     font-weight: 400;
     font-size: 48px;
     line-height: 72px;
@@ -468,6 +512,8 @@ footer{
     padding: 10px 56px;
 }
 .start{
+    font-family: 'Open Sans';
+    font-weight: 700;
     font-size: 20px;
     line-height: 28px;
     padding: 16px 56px;
@@ -483,6 +529,8 @@ footer{
     margin-top:100px;
 }
 .footer h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
     font-size: 24px;
 }
 .outro{
@@ -492,6 +540,8 @@ footer{
 }
 .outro p{
     margin-top:30px;
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
 .landings, .company, .resources{
     display:flex;
@@ -508,6 +558,8 @@ footer{
 .landings li, .company li, .resources li{
     margin-bottom: 20px;
     font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
 #hiring{
     background: #65E4A3;
@@ -515,6 +567,7 @@ footer{
     border: none;
     padding: 1px 14px;
     font-size: 13px;
+    font-family: 'Open Sans';
     font-weight: 700;
     line-height: 28px;
     color: #0A2640;
@@ -563,10 +616,9 @@ footer{
         color:gray;
         font-size: 16px;
         line-height: 24px;
-        width: 567px;
         height: 56px;
         margin-top: 0;
-        width: 85%;
+        width: 100%;
     }
     .intro-img{
         width: 450px;
@@ -693,7 +745,7 @@ footer{
     }
     .user{
         width:80%;
-        margin:0 auto 2em;
+        margin:0 auto 25px;
     }
     .user img{
         height: 38px;
@@ -867,7 +919,7 @@ footer{
         max-width: 500px;
         left: 50%;
         transform: translate(-50%);
-        margin:150px auto 0;
+        margin:130px auto 0;
 
     }
     .list-item{
@@ -888,7 +940,7 @@ footer{
     }
     .intro{
         position: absolute;
-        padding-top:180px;
+        padding-top:160px;
         display: block;
         width:80%;
         max-width: 550px;
@@ -910,7 +962,7 @@ footer{
         margin:0 auto;
         font-size: 26px;
         line-height: 26px;
-        width:90%;
+        width:100%;
         text-align: center;
     }
     .intro-text p{
@@ -1028,20 +1080,20 @@ footer{
     }
     .testimonials{
         background-image: url("/assets/homepage/Rectangle\ 1268.png");
-        height: 450px;
+        height: 400px;
     }
     .heading{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 85%;
-        max-width: 1140px;
+        width: 95%;
+        max-width: 700px;
         padding-top:0px;
     }
     .heading h1{
         width: 350px;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 22px;
         line-height: 32px;
         margin-bottom: 0;
         color: white;
@@ -1056,31 +1108,31 @@ footer{
         padding: 0;
     }
     #move-left{
-        margin-right: 10px;
+        margin-right: 6px;
     }
     .reviews{
         display:flex;
         justify-content: space-between;
         align-items: flex-start;
         width: 98%;
-        max-width: 500px;
-        margin:50px auto 0;    
+        max-width: 550px;
+        margin:50px auto 0;     
     }
     .review{
         width:32%;
-        max-width: 150px;
+        max-width: 200px;
         background-color: white;
         border-radius: 12px;
     }
     .review h3{
-        width:80%;
+        width:90%;
         font-weight: 400;
         font-size: 14px;
-        line-height: 18px;
+        line-height: 16px;
         margin:10px auto 10px;
     }
     .user{
-        width:100%;
+        width:90%;
         margin:0 auto 15px;
     }
     .user img{
@@ -1088,15 +1140,15 @@ footer{
     }
     .name-designation h4{
         font-weight: 700;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 12px;
         margin:0 auto 0;
     }
     .name-designation{
-        margin-left:10px;
+        margin-left:5px;
     }
     .name-designation p{
-        font-size: 10px;
+        font-size: 8px;
         margin:5px auto 0;
     }
     .faqs{
@@ -1130,8 +1182,8 @@ footer{
     .blog h1{
         width:100%;
         font-weight: 400;
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 32px;
         margin:auto;
     }
     .blog h3{
@@ -1161,11 +1213,11 @@ footer{
         margin-top: 5px;
     }
     .category-list-item-data h3{
-        margin-top:0.5em;
+        margin-top:6px;
         height:76px;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 16px;
+        line-height: 18px;
         margin-bottom: 5px;
     }
     .user-info img{
@@ -1178,7 +1230,7 @@ footer{
         margin-top: 0;
     }
     .user-info span{
-        margin:auto 0 auto 0.7em;
+        margin:auto 0 auto 8px;
     }
     #load-more{
         border: 1px solid #0A2640;
@@ -1206,7 +1258,7 @@ footer{
     .send-email h1{
         width: 90%;
         padding-top: 50px;
-        font-size: 24px;
+        font-size: 22px;
         line-height: 32px;
     }
     .e-mail{

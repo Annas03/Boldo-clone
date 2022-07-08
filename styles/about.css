@@ -30,9 +30,14 @@ header{
     color: white;
     padding-left: 0;
 }
+a{
+    text-decoration: none;
+}
 .list-item{
     margin:20px;
     font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
 }
 #log-in{
     background-color: white;
@@ -40,14 +45,16 @@ header{
     padding:8px 40px;
     border-radius: 24px;
     line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 .boldo-logo{
     height:45px;
 }
 .header-text{
     padding-top:120px;
-    width: 48%;
-    max-width: 680px;
+    width: 58%;
+    max-width: 780px;
     margin:auto;
     text-align: center;
     color: #FFFFFF;
@@ -116,6 +123,7 @@ header{
     margin: 0 auto 80px;
 }
 .story-text h3{
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -319,7 +327,7 @@ header{
 footer{
     width: 80%;
     max-width: 1140px;
-    margin: 6em auto 0;
+    margin: 110px auto 0;
 }
 .send-email{
     text-align: center;
@@ -339,11 +347,12 @@ footer{
 .send-email h1{
     position: absolute;
     color: white;
-    width: 600px;
+    width: 750px;
     margin:0;
     left: 50%;
     transform: translate(-50%);
     padding-top: 70px;
+    font-family: 'Manrope';
     font-weight: 400;
     font-size: 48px;
     line-height: 72px;
@@ -360,6 +369,8 @@ footer{
     padding: 10px 56px;
 }
 .start{
+    font-family: 'Open Sans';
+    font-weight: 700;
     font-size: 20px;
     line-height: 28px;
     padding: 16px 56px;
@@ -374,7 +385,12 @@ footer{
     align-items: center;
     margin-top:100px;
 }
+.footer a{
+    color:#0A2640;
+}
 .footer h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
     font-size: 24px;
 }
 .outro{
@@ -384,6 +400,8 @@ footer{
 }
 .outro p{
     margin-top:30px;
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
 .landings, .company, .resources{
     display:flex;
@@ -400,6 +418,8 @@ footer{
 .landings li, .company li, .resources li{
     margin-bottom: 20px;
     font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
 #hiring{
     background: #65E4A3;
@@ -407,6 +427,7 @@ footer{
     border: none;
     padding: 1px 14px;
     font-size: 13px;
+    font-family: 'Open Sans';
     font-weight: 700;
     line-height: 28px;
     color: #0A2640;
@@ -427,7 +448,7 @@ footer{
         height:38px;
     }
     .header-text{
-        width: 58%;
+        width: 68%;
         max-width: 600px;
 
     }
@@ -444,7 +465,7 @@ footer{
         width: 180px;
     }
     .story-images{
-        top: -120px;
+        top: -80px;
         width:80%;
         max-width: 650px;
         grid-gap: 10px;
@@ -662,7 +683,7 @@ footer{
     }
     .header-text{
         padding-top:140px;
-        width: 80%;
+        width: 85%;
         max-width: 450px;
     }
     .header-text h3{
@@ -678,25 +699,26 @@ footer{
         line-height: 20px;
     }
     .story-images img{
-        width:100%;
-        max-width: 120px;
+        width:85px;
+        max-width: 100px;
     }
     .story-images{
-        top: -70px;
-        width:90%;
-        max-width: 450px;
+        top: -80px;
+        width:85%;
+        max-width: 370px;
         grid-gap: 5px;
     }
     #big-img{
-        max-width: 100%;
-        max-width: 160px;
+        width:100%;
+        max-width: 140px;
     }
     #img-one, #img-four {
-        margin-left: 25px;
+        place-self:start end;
+        /* margin-left: 20px; */
         padding-right: 0;
     }
     .story-text{
-        padding-top: 200px;
+        padding-top: 150px;
         width: 90%;
         max-width: 500px;
         margin: 0 auto 50px;

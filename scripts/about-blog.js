@@ -1,4 +1,7 @@
 let mobileNavBarIsClicked = false
+if(screen.width > 789){
+    mobileNavBarIsClicked = true
+}
 
 document.getElementById("mobile-navbar").addEventListener("click", mobileNavbarClicked)
 

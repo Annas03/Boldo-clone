@@ -2,6 +2,10 @@ body{
     margin:0;
     padding:0;
 }
+a{
+    text-decoration: none;
+    color: #0A2640;
+}
 header{
     position: relative;
 }
@@ -25,12 +29,14 @@ header{
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    color: #0A2640;
+    color:#0A2640;
     padding-left: 0;
 }
 .list-item{
     margin:20px;
     font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
 }
 #log-in{
     background-color: white;
@@ -38,6 +44,11 @@ header{
     padding:8px 40px;
     border-radius: 24px;
     line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.boldo-logo{
+    height:45px;
 }
 .header-text{
     padding-top:120px;
@@ -164,6 +175,9 @@ header{
     align-items: center;
 }
 .user-info span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
     margin-left:10px;
 }
 #load-more{
@@ -181,7 +195,7 @@ header{
 footer{
     width: 80%;
     max-width: 1140px;
-    margin: 6em auto 0;
+    margin: 110px auto 0;
 }
 .send-email{
     text-align: center;
@@ -201,11 +215,12 @@ footer{
 .send-email h1{
     position: absolute;
     color: white;
-    width: 600px;
+    width: 750px;
     margin:0;
     left: 50%;
     transform: translate(-50%);
     padding-top: 70px;
+    font-family: 'Manrope';
     font-weight: 400;
     font-size: 48px;
     line-height: 72px;
@@ -222,6 +237,8 @@ footer{
     padding: 10px 56px;
 }
 .start{
+    font-family: 'Open Sans';
+    font-weight: 700;
     font-size: 20px;
     line-height: 28px;
     padding: 16px 56px;
@@ -237,6 +254,8 @@ footer{
     margin-top:100px;
 }
 .footer h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
     font-size: 24px;
 }
 .outro{
@@ -246,6 +265,8 @@ footer{
 }
 .outro p{
     margin-top:30px;
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
 .landings, .company, .resources{
     display:flex;
@@ -262,6 +283,8 @@ footer{
 .landings li, .company li, .resources li{
     margin-bottom: 20px;
     font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
 #hiring{
     background: #65E4A3;
@@ -269,6 +292,7 @@ footer{
     border: none;
     padding: 1px 14px;
     font-size: 13px;
+    font-family: 'Open Sans';
     font-weight: 700;
     line-height: 28px;
     color: #0A2640;
@@ -497,11 +521,11 @@ footer{
     .category-list-item-data{
         position: relative;
         margin-top: 10px;
-        height: 120px;
+        height: 130px;
     }
     .category-list-item-data h3{
-        font-size: 16px; 
-        line-height: 20px;
+        font-size: 14px; 
+        line-height: 18px;
         margin-top: 0;
     }
     .user-info{
