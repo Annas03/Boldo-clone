@@ -546,7 +546,7 @@ footer{
         margin: 40px auto 30px;
     }
     footer{
-        width: 80%;
+        width: 100%;
         max-width: 800px;
         margin: 50px auto 0;
     }
@@ -581,6 +581,7 @@ footer{
         padding: 8px 32px;
     }
     .footer{
+        width: 80%;
         justify-content: space-evenly;
         flex-wrap: wrap;
         max-width: 700px;
@@ -614,5 +615,232 @@ footer{
     }
     .outro p{
         max-width: 300px;
+    }
+}
+@media screen and (min-width:275px) and (max-width:374px) {
+    #mobile-navbar,#mobile-navbar::before,#mobile-navbar::after{
+        background-color: #0A2640;
+        width: 20px;
+        height:3px;
+    }
+    #mobile-navbar{
+        display: inline-block;
+        position: relative;
+    }
+    #mobile-navbar::before{
+        position: absolute;
+        content: "";
+        top:-6px;
+    }
+    #mobile-navbar::after{
+        position: absolute;
+        content: "";
+        bottom:-6px;
+    }
+    .nav-bar{
+        margin-top: 30px;
+        max-width:600px;
+    }
+    .nav-bar ul{
+        position: absolute;
+        display:none;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        max-width: 250px;
+        left: 50%;
+        transform: translate(-50%);
+        margin:90px auto 0;
+    }
+    .list-item{
+        margin:5px;
+        font-size: 0.7rem;
+    }
+    #log-in{
+        font-size: 0.7rem;
+        padding:1px 6px;
+        border-radius: 24px;
+        line-height: 18px;
+    }
+    .boldo-logo{
+        height:25px;
+    }
+    .header-text{
+        padding-top:100px;
+        width: 90%;
+        max-width: 600px;
+    }
+    .header-text h3{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .header-text h1{
+        font-size: 20px;
+        line-height: 24px;
+        margin: 5px auto 50px;
+    }
+    .category{
+        width: 90%;
+        flex-wrap: wrap;
+        max-width: 250px;
+        margin: auto;
+        padding-bottom: 25px;
+    }
+    #cat-img{
+        width:100%;
+        max-width:280px;
+    }
+    .about-category{
+        margin-left: 0;
+    }
+    .about-category h4{
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+    .about-category span{
+        margin-left: 10px;
+    }
+    .about-category h1{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    .user-info-category h4{
+        margin-block: auto;
+    }
+    .latest-news{
+        width:90%;
+        max-width: 320px;
+        padding-top: 10px;
+    }
+    .latest-news h1{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+    .latest-news-list{
+        justify-content: space-evenly;
+    }
+    .latest-news-item{
+        width: 200px;
+        margin:30px 15px 0;
+        align-self: flex-start;
+    }
+    .cat-person{
+        width:200px;
+    }
+    .cat{
+        font-size: 14px;
+        line-height: 22px;
+        margin-block:5px;
+    }
+    .date{
+        margin-left:10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .category-list-item-data{
+        position: relative;
+        margin-top: 10px;
+        height: 130px;
+    }
+    .category-list-item-data h3{
+        font-size: 14px; 
+        line-height: 18px;
+        margin-top: 0;
+    }
+    .user-info{
+        bottom:0px;
+    }
+    .user-info span{
+        margin-left:5px;
+        font-size: 12px;
+    }
+    .user-info img{
+        width:25px;
+    }
+    #load-more{
+        border: 1px solid #0A2640;
+        padding: 8px 28px;
+        font-weight: 700;
+        font-size: 18px;
+        margin: 40px auto 30px;
+    }
+    footer{
+        width: 100%;
+        margin: 50px auto 0;
+    }
+    .send-email{
+        height:280px;
+    }
+    #elipse-two{
+        top:-70px;
+        height:200px;   
+    }
+    .send-email h1{
+        width: 90%;
+        padding-top: 50px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .e-mail{
+        padding-top:150px;
+    }
+    .send-email input{
+        font-size: 14px;
+        line-height: 20px;
+        background: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 240px;
+        padding: 4px 25px;
+    }
+    .start{
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 4px 24px;
+    }
+    .footer{
+        width:80%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-width: 700px;
+        margin:20px auto 0;
+    }
+    .footer h2{
+        font-size: 20px;
+        margin-bottom: 0;
+        border-bottom: 1px solid black;
+    }
+    .landings, .company, .resources{
+        width:100px;
+        max-width: 400px;
+        line-height: 24px;
+        margin:0;
+    }
+    .landings li, .company li, .resources li{
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    #hiring{
+        padding: 1px 5px;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 15px;
+        color: #0A2640;
+        margin-left:0px;
+    }
+    .outro{
+        width:100%;
+    }
+    .outro p{
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 300px;
+        margin-top:15px;
+    }
+    .outro img{
+        height:30px;
     }
 }

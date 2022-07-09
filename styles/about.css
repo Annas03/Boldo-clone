@@ -856,7 +856,7 @@ footer{
         margin-top: 4px;
     }
     footer{
-        width: 80%;
+        width: 100%;
         max-width: 800px;
         margin: 50px auto 0;
     }
@@ -891,6 +891,7 @@ footer{
         padding: 8px 32px;
     }
     .footer{
+        width: 80%;
         justify-content: space-evenly;
         flex-wrap: wrap;
         max-width: 700px;
@@ -924,5 +925,312 @@ footer{
     }
     .outro p{
         max-width: 300px;
+    }
+}
+@media screen and (max-width:374px) and (min-width:275px) {
+    header{
+        height: 350px;
+    }
+    #mobile-navbar,#mobile-navbar::before,#mobile-navbar::after{
+        background-color: white;
+        width: 20px;
+        height:3px;
+    }
+    #mobile-navbar{
+        display: inline-block;
+        position: relative;
+    }
+    #mobile-navbar::before{
+        position: absolute;
+        content: "";
+        top:-6px;
+    }
+    #mobile-navbar::after{
+        position: absolute;
+        content: "";
+        bottom:-6px;
+    }
+    .nav-bar{
+        margin-top: 30px;
+        max-width:600px;
+    }
+    .nav-bar ul{
+        position: absolute;
+        display:none;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        max-width: 250px;
+        left: 50%;
+        transform: translate(-50%);
+        margin:80px auto 0;
+    }
+    .list-item{
+        margin:5px;
+        font-size: 0.7rem;
+    }
+    #log-in{
+        font-size: 0.7rem;
+        padding:1px 6px;
+        border-radius: 24px;
+        line-height: 18px;
+    }
+    .boldo-logo{
+        height:25px;
+    }
+    .header-text{
+        padding-top:100px;
+        width: 85%;
+        max-width: 300px;
+    }
+    .header-text h3{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .header-text h1{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .header-text p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .story-images img{
+        width:65px;
+        max-width: 100px;
+    }
+    .story-images{
+        top: -40px;
+        width:90%;
+        max-width: 280px;
+        grid-gap: 5px;
+    }
+    #big-img{
+        width:100%;
+        max-width: 140px;
+    }
+    #img-one, #img-four {
+        place-self:start end;
+        /* margin-left: 20px; */
+        padding-right: 0;
+    }
+    .story-text{
+        padding-top: 120px;
+        width: 90%;
+        max-width: 300px;
+        margin: 0 auto 30px;
+    }
+    .story-text h3{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .story-text h1{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .story-text p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #our-numbers{
+        height:230px;
+        color: white;
+        padding-top: 30px;
+    }
+    .numbers-text{
+        width:90%;
+        max-width: 300px;
+    }
+    .numbers-text h3{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .numbers-text h1{
+        font-size: 18px;
+        line-height: 20px;
+        max-width: 270px;
+    }
+    .numbers{
+        width:100%;
+        max-width: 320px;
+        margin-top: 20px;
+    }
+    .features h1{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .features p{
+        font-size: 10px;
+        line-height: 14px;
+        margin-top: 5px;
+    }
+    .our-team{
+        width:90%;
+        max-width: 500px;
+        margin:30px auto 10px; 
+    }
+    .team-text{
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+    }
+    .team-text h3{
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 5px;
+    }
+    .team-text h1{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .team-text p{
+        width:95%;
+
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .team-list{
+        margin-top:30px;
+        margin: 30px auto 10px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .team-member{
+        width:60%;
+        max-width: 170px;
+        margin:0 5px 30px;
+    }
+    .team-member img{
+        width:100%;
+    }
+    .about-team-member h3{
+        font-size: 16px;
+        line-height: 18px;
+        margin:5px auto 0;
+    }
+    .about-team-member h4{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .values-text{
+        width:90%;
+        max-width:300px;
+        padding-top: 30px;
+    }
+    .values-text h3{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+    .values-text h1{
+        font-size:20px;
+        line-height: 24px;
+    }
+    .values-text p{
+        width:90%;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .values-list{
+        width:95%;
+        max-width:320px;
+        padding:15px 0 15px;
+    }
+    .values{
+        margin-bottom: 20px;
+    }
+    .values img{
+        width:30%;
+        max-width: 103px;
+    }
+    .value{
+        width:100%;
+        margin-left: 15px;
+    }
+    .value h3{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .value p{
+        font-size: 10px;
+        line-height: 12px;
+        width:100%;
+        margin-top: 5px;
+    }
+    footer{
+        width: 100%;
+        margin: 50px auto 0;
+    }
+    .send-email{
+        height:280px;
+    }
+    #elipse-two{
+        top:-70px;
+        height:200px;   
+    }
+    .send-email h1{
+        width: 90%;
+        padding-top: 50px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .e-mail{
+        padding-top:150px;
+    }
+    .send-email input{
+        font-size: 14px;
+        line-height: 20px;
+        background: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 240px;
+        padding: 4px 25px;
+    }
+    .start{
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 4px 24px;
+    }
+    .footer{
+        width:80%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-width: 700px;
+        margin:20px auto 0;
+    }
+    .footer h2{
+        font-size: 20px;
+        margin-bottom: 0;
+        border-bottom: 1px solid black;
+    }
+    .landings, .company, .resources{
+        width:100px;
+        max-width: 400px;
+        line-height: 24px;
+        margin:0;
+    }
+    .landings li, .company li, .resources li{
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    #hiring{
+        padding: 1px 5px;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 15px;
+        color: #0A2640;
+        margin-left:0px;
+    }
+    .outro{
+        width:100%;
+    }
+    .outro p{
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 300px;
+        margin-top:15px;
+    }
+    .outro img{
+        height:30px;
     }
 }
